@@ -10,6 +10,8 @@
     $tmp_name = $_FILES['image']['tmp_name'];
     $role = $_POST['role'];
 
+    echo  $name = $_POST['name'];
+
     if($cpass!=$pass){
         echo '<script>
                 alert("Passwords do not match!");
